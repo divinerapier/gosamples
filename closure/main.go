@@ -3,9 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	counter := getCounter()
+	counter0 := getCounter()
 	for i := 0; i < 10; i++ {
-		fmt.Println(counter())
+		fmt.Println(counter0())
+	}
+	counter1 := getCounter()
+	for i := 0; i < 10; i++ {
+		fmt.Println(counter1())
 	}
 }
 
