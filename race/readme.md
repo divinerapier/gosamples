@@ -17,8 +17,9 @@
 
 <https://golang.org/ref/mem>
 
-## Algorithm
+## Sanitizer
 
+<https://github.com/google/sanitizers/wiki/ThreadSanitizerGoManual>
 <https://github.com/google/sanitizers/wiki/ThreadSanitizerAlgorithm>
 
 ## Using the race detector
